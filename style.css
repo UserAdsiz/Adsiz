@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #ffffff;
+    direction: rtl;
+}
+
+header {
+    background: #000000;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(17, 0, 255);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:hover {
+    background: #002aff;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #cecccc;
+    margin-top: 20px;
+}
